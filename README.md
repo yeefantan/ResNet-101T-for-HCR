@@ -2,9 +2,6 @@
 
 This repository is created for the paper - A pipeline approach to context-aware handwritten text recognition
 
-We will be uploading the codes to this repository soon...
-
-
 ## Requirements
 The code is written in Python and requires Tensorflow and Pytorch. You may install the requirements as follows:
 ```
@@ -22,13 +19,15 @@ In this project, we deisnged a pipeline for complete recognition of a handwritte
 !["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/architecture.png "Architecture")
 **Figure 1.** Proposed pipeline architecture
 
-We have uploaded the experimental setup for data pre-processing (noise processing, line removal, data augmentation, etc), YOLO-v5 for text localization, ResNet-101T for text transcription, and NER for context recognition in the directory of "pipeline". However, necessary changes would be necessary to re-use the code, (e.g. the data location).
+We have uploaded the notebooks of the experimental studies setup for data pre-processing (noise processing, line removal, data augmentation, etc), YOLO-v5 for text localization, ResNet-101T for text transcription, and NER for context recognition in the directory of "pipeline". However, some changes would be necessary to re-use the code, (e.g. the data location). The folder "utils" contains the necessary functions, such as loading the data.
 
 A side note: To use YOLO-v5, you must first label the data accordingly. The tool that we have used is LabelImg [2]. A sample annotated image is as below.
 
 !["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/sample_annotated_image.png "Sample")
 
 **Figure 2.** Sample annotated image
+
+To fully re-use the code, the researcher must start with data pre-processing, followed by data annotation for YOLO-v5, and data annotation for the segmented handwritten images, different model experiments (LSTM/ViT/ResNet-101T), lastly, data collection and annotation for text data using NER annotation software, and the NER model training. We have also uploaded the full pipeline demonstration in both PDF and notebook version under the directory "pipeline".
 
 ## Results
 
@@ -44,4 +43,3 @@ This section presents the experimental result of the paper in terms of Character
 [1]G. Jocher, A. Stoken, A. Chaurasia, J. Borovec, NanoCode012, TaoXie, Y. Kwon, K. Michael, L. Changyu, J. Fang, A. V, Laughing, tkianai, yxNONG, P. Skalski, A. Hogan, J. Nadar, imyhxy, L. Mammana, AlexWang1900, C. Fati, D. Montes, J. Hajek, L. Diaconu, M.T. Minh, Marc, albinxavi, fatih, oleg, wanghaoyang0106, ultralytics/yolov5: v6.0 - YOLOv5n “Nano” models, Roboflow integration, TensorFlow export, OpenCV DNN support, Zenodo, 2021. https://doi.org/10.5281/zenodo.5563715
 
 [2] Tzutalin. (2015). LabelImg. https://github.com/tzutalin/labelImg
-
