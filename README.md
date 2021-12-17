@@ -25,7 +25,9 @@ Figure 1. Proposed pipeline architecture
 We have uploaded the experimental setup for data pre-processing, YOLO-v5 for text localization, ResNet-101T for text transcription, and NER for context recognition in the directory of "pipeline". However, necessary changes would be necessary to re-use the code, (e.g. the data location).
 
 A side note: To use YOLO-v5, you must first label the data accordingly. The tool that we have used is LabelImg [2]. A sample annotated image is as below.
+
 !["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/sample_annotated_image.png "Sample")
+Figure 2. Sample annotated image
 
 ## Results
 
