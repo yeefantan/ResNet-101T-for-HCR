@@ -31,7 +31,11 @@ A side note: To use YOLO-v5, you must first label the data accordingly. The tool
 Figure 2. Sample annotated image
 
 ## Results
-
+|Model    | CER | WER |Computaitonal Time (seconds)|
+|---------|-----|-----|----------------------------|
+|ResNet-101T|7.77|10.77|350864|
+|LSTM|11.55|26.64|87148|
+|ViT|12.47|20.18|571428|
 
 ## References
 [1]G. Jocher, A. Stoken, A. Chaurasia, J. Borovec, NanoCode012, TaoXie, Y. Kwon, K. Michael, L. Changyu, J. Fang, A. V, Laughing, tkianai, yxNONG, P. Skalski, A. Hogan, J. Nadar, imyhxy, L. Mammana, AlexWang1900, C. Fati, D. Montes, J. Hajek, L. Diaconu, M.T. Minh, Marc, albinxavi, fatih, oleg, wanghaoyang0106, ultralytics/yolov5: v6.0 - YOLOv5n “Nano” models, Roboflow integration, TensorFlow export, OpenCV DNN support, Zenodo, 2021. https://doi.org/10.5281/zenodo.5563715
