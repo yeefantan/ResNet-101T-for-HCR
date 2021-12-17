@@ -1,4 +1,4 @@
-# resnet-101T_hcr
+# A pipeline approach to context-aware handwritten text recognition
 
 This repository is created for the paper - A pipeline approach to context-aware handwritten text recognition
 
