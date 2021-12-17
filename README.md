@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-The raw dataset is accessible at: https://drive.google.com/file/d/15XzvgQSv7GZ5gwC2ZlinApf5ODRwguLC/view?usp=sharing.
+We require the interested researchers to fill in the agreement upon accessing the collected dataset, the agreement is accessible at: .
 
 Ten variants of medical receipts with fifty samples each are collected, where the receipt templates are obtained from online sources. We have collected a total of 500 samples, where the empty medical receipts were distributed to the public to fill in. The participants come from various backgrounds, professions and are aged between twelve and fifty from Malaysia.
 
