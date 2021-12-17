@@ -41,7 +41,7 @@ This section presents the experimental result of the paper in terms of Character
 
 Some of the transcribed outputs are as followed:
 
-|---------------|-------------------|---------|
+
 |!["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_1_input.jpg "Demo 1 Input") | !["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_1_output.jpg "Demo 1 Output")|
 |!["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_2_input.jpg "Demo 2 Input") | !["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_2_output.jpg "Demo 2 Output")|
 
