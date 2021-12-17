@@ -19,9 +19,9 @@ In this project, we deisnged a pipeline for complete recognition of a handwritte
 !["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/architecture.png "Architecture")
 **Figure 1.** Proposed pipeline architecture
 
-We have uploaded the notebooks of the experimental studies setup for data pre-processing (noise processing, line removal, data augmentation, etc), YOLO-v5 for text localization, ResNet-101T for text transcription, and NER for context recognition in the directory of "pipeline". However, some changes would be necessary to re-use the code, (e.g. the data location). The folder "utils" contains the necessary functions, such as loading the data.
+We have uploaded the notebooks of the experimental studies setup for data pre-processing (noise processing, line removal, data augmentation, etc), YOLO-v5 for text localization, ResNet-101T for text transcription, and NER for context recognition in the directory of "pipeline". However, some changes would be necessary to re-use the code, (e.g. the data location). For OCR, we used Tesseract [1], a well-built model for printed/optical characters recognition. The folder "utils" contains the necessary functions, such as loading the data.
 
-A side note: To use YOLO-v5, you must first label the data accordingly. The tool that we have used is LabelImg [2]. A sample annotated image is as below.
+A side note: To use YOLO-v5 [2], you must first label the data accordingly. The tool that we have used is LabelImg [3]. A sample annotated image is as below.
 
 !["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/sample_annotated_image.png "Sample")
 
@@ -46,6 +46,9 @@ Some of the transcribed outputs are as followed:
 | <img src="https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_2_input.jpg" width="600" /> | <img src="https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_2_output.jpg" width="600" />|
 
 ## References
-[1]G. Jocher, A. Stoken, A. Chaurasia, J. Borovec, NanoCode012, TaoXie, Y. Kwon, K. Michael, L. Changyu, J. Fang, A. V, Laughing, tkianai, yxNONG, P. Skalski, A. Hogan, J. Nadar, imyhxy, L. Mammana, AlexWang1900, C. Fati, D. Montes, J. Hajek, L. Diaconu, M.T. Minh, Marc, albinxavi, fatih, oleg, wanghaoyang0106, ultralytics/yolov5: v6.0 - YOLOv5n “Nano” models, Roboflow integration, TensorFlow export, OpenCV DNN support, Zenodo, 2021. https://doi.org/10.5281/zenodo.5563715
 
-[2] Tzutalin. (2015). LabelImg. https://github.com/tzutalin/labelImg
+[1] S. Thakare, A. Kamble, V. Thengne, U.R. Kamble, Document Segmentation and Language Translation Using Tesseract-OCR, in: 2018 IEEE 13th International Conference on Industrial and Information Systems (ICIIS), 2018: pp. 148–151. https://doi.org/10.1109/ICIINFS.2018.8721372
+
+[2] G. Jocher, A. Stoken, A. Chaurasia, J. Borovec, NanoCode012, TaoXie, Y. Kwon, K. Michael, L. Changyu, J. Fang, A. V, Laughing, tkianai, yxNONG, P. Skalski, A. Hogan, J. Nadar, imyhxy, L. Mammana, AlexWang1900, C. Fati, D. Montes, J. Hajek, L. Diaconu, M.T. Minh, Marc, albinxavi, fatih, oleg, wanghaoyang0106, ultralytics/yolov5: v6.0 - YOLOv5n “Nano” models, Roboflow integration, TensorFlow export, OpenCV DNN support, Zenodo, 2021. https://doi.org/10.5281/zenodo.5563715
+
+[3] Tzutalin. (2015). LabelImg. https://github.com/tzutalin/labelImg
