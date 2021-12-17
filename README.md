@@ -27,6 +27,7 @@ We have uploaded the experimental setup for data pre-processing, YOLO-v5 for tex
 A side note: To use YOLO-v5, you must first label the data accordingly. The tool that we have used is LabelImg [2]. A sample annotated image is as below.
 
 !["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/sample_annotated_image.png "Sample")
+
 Figure 2. Sample annotated image
 
 ## Results
