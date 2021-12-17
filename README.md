@@ -40,9 +40,10 @@ This section presents the experimental result of the paper in terms of Character
 |ViT|12.47|20.18|571428|
 
 Some of the transcribed outputs are as followed:
-
-|<img src="https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_1_input.jpg" width="200" />|<img src="https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_1_output.jpg" width="200" />|
-|<img src="https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_2_input.jpg" width="200" />|<img src="https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_2_output.jpg" width="200" />|
+|Input    | Output | 
+|---------|--------|
+| <img src="https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_1_input.jpg" width="300" /> | <img src="https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_1_output.jpg" width="300" />|
+| <img src="https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_2_input.jpg" width="300" /> | <img src="https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/demo_2_output.jpg" width="300" />|
 
 ## References
 [1]G. Jocher, A. Stoken, A. Chaurasia, J. Borovec, NanoCode012, TaoXie, Y. Kwon, K. Michael, L. Changyu, J. Fang, A. V, Laughing, tkianai, yxNONG, P. Skalski, A. Hogan, J. Nadar, imyhxy, L. Mammana, AlexWang1900, C. Fati, D. Montes, J. Hajek, L. Diaconu, M.T. Minh, Marc, albinxavi, fatih, oleg, wanghaoyang0106, ultralytics/yolov5: v6.0 - YOLOv5n “Nano” models, Roboflow integration, TensorFlow export, OpenCV DNN support, Zenodo, 2021. https://doi.org/10.5281/zenodo.5563715
