@@ -14,6 +14,9 @@ pip install -r requirements.txt
 ## Dataset
 The raw dataset is accessible at: https://drive.google.com/file/d/15XzvgQSv7GZ5gwC2ZlinApf5ODRwguLC/view?usp=sharing.
 
-Ten variants of medical receipts with fifty samples each are collected, where the receipt templates are obtained from online sources. We have collected a total of 500 samples, where the empty medical receipts were distributed to the public to fill in. The participants come from various backgrounds, professions and are aged between twelve and fifty from Malaysia. Figure 1 shows the example of collected data.
+Ten variants of medical receipts with fifty samples each are collected, where the receipt templates are obtained from online sources. We have collected a total of 500 samples, where the empty medical receipts were distributed to the public to fill in. The participants come from various backgrounds, professions and are aged between twelve and fifty from Malaysia.
 
-!["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/Raw_2.jpg "Raw 1")
+## Overview
+In this project, we deisnged a pipeline for a complete recognition of a handwritten document, from Region of Interest (ROI) localization, to text transcription, and lastly, the context recognition. Figure below shows the architecture of the proposed pipeline.
+
+!["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/architecture.png "Architecture")
