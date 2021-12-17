@@ -22,7 +22,7 @@ In this project, we deisnged a pipeline for complete recognition of a handwritte
 !["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/architecture.png "Architecture")
 Figure 1. Proposed pipeline architecture
 
-We have uploaded the experimental setup for data pre-processing, YOLO-v5 for text localization, ResNet-101T for text transcription, and NER for context recognition in the directory of "pipeline". However, necessary changes would be necessary to re-use the code, (e.g. the data location).
+We have uploaded the experimental setup for data pre-processing (noise processing, line removal, data augmentation, etc), YOLO-v5 for text localization, ResNet-101T for text transcription, and NER for context recognition in the directory of "pipeline". However, necessary changes would be necessary to re-use the code, (e.g. the data location).
 
 A side note: To use YOLO-v5, you must first label the data accordingly. The tool that we have used is LabelImg [2]. A sample annotated image is as below.
 
@@ -31,6 +31,9 @@ A side note: To use YOLO-v5, you must first label the data accordingly. The tool
 Figure 2. Sample annotated image
 
 ## Results
+
+This section presents the experimental result of the paper in terms of Character Error Rate (CER), Word Error Rate (WER), and computational time. Refer to the table below:
+
 |Model    | CER | WER |Computaitonal Time (seconds)|
 |---------|-----|-----|----------------------------|
 |ResNet-101T|7.77|10.77|350864|
@@ -39,4 +42,6 @@ Figure 2. Sample annotated image
 
 ## References
 [1]G. Jocher, A. Stoken, A. Chaurasia, J. Borovec, NanoCode012, TaoXie, Y. Kwon, K. Michael, L. Changyu, J. Fang, A. V, Laughing, tkianai, yxNONG, P. Skalski, A. Hogan, J. Nadar, imyhxy, L. Mammana, AlexWang1900, C. Fati, D. Montes, J. Hajek, L. Diaconu, M.T. Minh, Marc, albinxavi, fatih, oleg, wanghaoyang0106, ultralytics/yolov5: v6.0 - YOLOv5n “Nano” models, Roboflow integration, TensorFlow export, OpenCV DNN support, Zenodo, 2021. https://doi.org/10.5281/zenodo.5563715
+
 [2] Tzutalin. (2015). LabelImg. https://github.com/tzutalin/labelImg
+
