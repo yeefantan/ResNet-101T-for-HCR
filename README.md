@@ -6,7 +6,7 @@ We will be uploading the codes to this repository soon...
 
 
 ## Requirements
-The code is written in Python and requires Tensorflow. You may install the requirements as follows:
+The code is written in Python and requires Tensorflow and Pytorch. You may install the requirements as follows:
 ```
 pip install -r requirements.txt
 ```
