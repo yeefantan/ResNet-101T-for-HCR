@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## Dataset
 We require the interested researchers to fill in the agreement upon accessing the collected dataset, namely MMUISD HCR Database, Handwritten Medical Receipt, the agreement is accessible at: [MMUISD HCR Database Release Agreement](https://drive.google.com/file/d/1-MaV_aR9jdcLsUNQ-fB9gI25geVeMJAM/view?usp=sharing).
 
-Ten variants of medical receipts with fifty samples each are collected, where the receipt templates are obtained from online sources. We have collected a total of 500 samples, where the empty medical receipts were distributed to the public to fill in. The participants come from various backgrounds, professions and are aged between twelve and fifty from Malaysia.
+Ten variants of medical receipts with fifty samples each are collected, where the receipt templates are obtained from online sources. We have collected a total of 500 samples, where the empty medical receipts were distributed to the public to fill in. The participants come from various backgrounds, professions and are aged between twelve and fifty from Malaysia. Some of the samples can be viewed under the directory "figures/", as Raw_1.jpg, Raw_2.jpg, and Raw_3.jpg.
 
 ## Overview
 In this project, we deisnged a pipeline for complete recognition of a handwritten document, from Region of Interest (ROI) localization, to text transcription, and lastly, the context recognition. Figure below shows the architecture of the proposed pipeline.
