@@ -19,7 +19,7 @@ In this project, we deisnged a pipeline for complete recognition of a handwritte
 !["alt_text"](https://github.com/yeefantan/ResNet-101T-for-HCR/blob/main/figures/architecture.png "Architecture")
 **Figure 1.** Proposed pipeline architecture
 
-We have uploaded the notebooks of the experimental studies setup for data pre-processing (noise processing, line removal, data augmentation, etc), YOLO-v5 for text localization, ResNet-101T for text transcription, and NER for context recognition in the directory of "pipeline". However, some changes would be necessary to re-use the code, (e.g. the data location). For OCR, we used Tesseract [1], a well-built model for printed/optical characters recognition. The folder "utils" contains the necessary functions, such as loading the data.
+We have uploaded the notebooks of the experimental studies setup for data pre-processing (noise processing, line removal, data augmentation, etc), YOLO-v5 for text localization, ResNet-101T for text transcription, and NER for context recognition in the directory of "pipeline". However, some changes would be necessary to re-use the code, (e.g. the data location). For OCR, we used Tesseract [1], a well-built model for printed/optical characters recognition. The folder "utils" contains the necessary helper functions, such as loading the data.
 
 A side note: To use YOLO-v5 [2], you must first label the data accordingly. The tool that we have used is LabelImg [3]. A sample annotated image is as below.
 
